@@ -3,6 +3,8 @@ import './index.css';
 import About from './components/About';
 import Header from './components/Header';
 import Contact from './components/Contact';
+import Futter from './components/Futter';
+
 
 function App() {
   return ( 
@@ -10,6 +12,7 @@ function App() {
     <Header/>
     <About/>
     <Contact/>
+    <Futter/> 
     </>
    );
 }

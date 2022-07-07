@@ -5,9 +5,7 @@ body {
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
   max-width: 80%;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 2rem;
+  background-image: url("./assets/imgs/abtFleshimg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

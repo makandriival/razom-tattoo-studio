@@ -1,7 +1,14 @@
 import React from 'react'
 import abtImg from '../assets/imgs/abtFleshimg.jpeg'
+import styled from 'styled-components'
+
+const AboutStyles = styled.div`
+
+`
+
 const About = () => {
   return (
+    <AboutStyles>
     <section id='about' className='about_conteiner'>
         <div className='aboutText'>
             <p>
@@ -9,10 +16,11 @@ const About = () => {
                 Spacious studio and welcoming stuff waiting for you
             </p>
         </div>
-        <div className='aboutImgCont'>
+        {/* <div className='aboutImgCont'>
             <img src={abtImg} alt="aboutImg" />
-        </div>
+        </div> */}
     </section>
+    </AboutStyles>
   )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import Logo from './Logo'
+
 import styled from 'styled-components'
 
 
@@ -40,12 +42,7 @@ const HeaderStyle = styled.div`
     transition: all 700ms ease-in-out 25ms;
   }
 }
-.logo h1{
-  font-family: '';
-  max-width: 100%;
-  margin-bottom: -7px;
-  /* margin-left: -10px; */
-}
+
 
 }
 `
@@ -54,10 +51,7 @@ const header = () => {
   return (  
     <HeaderStyle >
       <div className = 'header' >
-<div className='logo'>
-<h1> Razom </h1>
-<span>Tattoo Studio</span>
-</div>
+   <Logo/>
 <div className='nav'>
   <button href='#about'>About</button>
   <button href='#customers'>Customers</button>
